@@ -26,3 +26,7 @@
 *.exe
 *.out
 *.app
+SmartDoubleArray/Debug/
+SmartDoubleArray.sdf
+Debug/SmartDoubleArray.exe.lastcodeanalysissucceeded
+SmartDoubleArray.opensdf
