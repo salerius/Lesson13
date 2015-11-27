@@ -18,7 +18,8 @@ int main()
     a2.add(3);
     a2.add(731);
     a2.add(3);
-	a2.add(3);
+    a2.add(777);
+    a2.add(777);
     
 
     cout<<"Size: "<<a2.getSize()<<endl;
