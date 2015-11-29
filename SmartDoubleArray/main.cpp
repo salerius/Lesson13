@@ -7,86 +7,39 @@ using namespace MyArray;
 int main()
 {
 
-    SmartDoubleArray<int> a2;
+    SmartDoubleArray<char> a2;
+    a2.add('a');
+    a2.add('d');
+    a2.add('f');
+    a2.add('t');
+    a2.add('m');
+	a2.remove(1);
+	
+	char a = a2[2];
+	cout << "Overload ["<<2<<"] :" << a << endl;
+	cout << a2 << endl;
+
+	SmartDoubleArray<int> a3;
+    a3.add(4);
+    a3.add(777);
+    a3.add(3277);
+    a3.add(88);
+	cout << a3 << endl;
+	a3.insert(2, 1);
+	cout << a3 << endl;
+	cout << "Size: " << a3.getSize() << endl;
 
 
-    a2.add(5);
-    a2.add(3);
-    a2.add(731);
-    a2.add(1231);
-    a2.add(1);
-    a2.add(3);
-    a2.add(731);
-    a2.add(3);
-    a2.add(777);
-    a2.add(777);
-    a2.add(8888);
- //   
 
- //   cout<<"Size: "<<a2.getSize()<<endl;
- //   cout <<"Capacity: "<<a2.getCapacity() << endl;
-
-
-
- //   a2.insert(777, 2);
-
- //   
- //   a2.remove(2);
-
-
- //   a2.add(9999);
-
-
- //   a2.remove(0);
-
-
- //   int a=a2.getAt(2);
- //   cout << a << endl;
- //  
- //   a = a2.getSize();
- //   cout << "Size Array :"<< a << endl;
-
-    int a = a2[2];
-    cout << "Overload [] :" << a << endl;
-
- //   int m;
- //   m = a2.findNext(731, 5);
- //   cout << "FindNext :" << m << endl;
-//    cout << a2 << endl;
- //   cout << a2 << endl;
-
-
- //   a2.add(5731);
- //   a2.add(131);
- //   a2.add(12);
- //   a2.add(63);
- //   a2.add(38);
- //   a2.add(38);
-
- //   cout << a2 << endl;
- //   cout << "Size: " << a2.getSize() << endl;
- //   cout << "Capacity: " << a2.getCapacity() << endl;
-
-
- //   
- //   cout << a2 << endl;
- //   a2.insert(888, 6);
-	//a2.insert(888, 6);
-	//a2.insert(888, 6);
-	//a2.insert(888, 6);
-	//a2.insert(888, 6);
-	//a2.insert(888, 6);
-
- //   cout << a2 << endl;
- //   a = a2.count(777);
- //   cout << "count of 777 in array : " << a << endl;
- //   cout << "count of 777 in array : " << a << endl;
-	//cout << a2 << endl;
-
-
-	//a2.insert(55, 3);
-	//
-	//cout << a2<<endl;
+	SmartDoubleArray<double> a4;
+	a4.add(3.3);
+	a4.add(5.3);
+	a4.add(1.44);
+	a4.add(7.54);
+	a4.add(34.5);
+	cout << a4 << endl;
+	a4.remove(1);
+	cout << a4 << endl;
 
 
     cin.get();
